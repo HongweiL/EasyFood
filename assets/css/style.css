@@ -1,0 +1,558 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #f0f0f0;
+}
+
+a {
+	text-decoraction: no;
+}
+
+/* Top Navigation*/
+.top-search {
+	display: flex;
+	flex-direction: column;
+	background: #f8f8f8;
+}
+
+.top-nav {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	padding-left: 1vh;
+	padding-right: 1vh;
+	max-width: 1200px;
+	margin: 20px auto;
+	background:#f0f0f0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.top-nav h4 {
+	margin-top: none;
+	margin: 20px;
+}
+
+.main-search{
+	height: 120px;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	max-width: 1200px;
+	margin: 10px auto 20px;
+	background: #ffffff;
+	padding-left: 1vh;
+	padding-right: 1vh;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.main-search img {
+	height: 100%;
+}
+
+.main-search select {
+	background-image: url(../images/location.png);
+	background-size: 2vh 2vh;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 2vh;
+	height: 2vh;
+	border: none;
+	margin-top: 20%;
+}
+
+.location {
+	margin-top: 13px;
+	margin-left: 30px;
+}
+
+.search-bar {
+	min-width: 50%;
+	margin-left: 50px;
+	margin-top: 15px;
+	display: auto;
+}
+
+.search-bar input {
+	width: 300px;
+	height: 40px;
+	border-radius: 3px;
+}
+
+.search-bar button {
+	height: 40px;
+	width: 80px;
+	background: #ff9800;
+	color: white;
+	border-radius: 3px;
+	border: none;
+}
+
+/*Main Body*/
+.main {
+	background:#f8f8f8;
+	border-top: 4px solid #FF9800;
+	border-bottom: 4px solid #FF9800;
+}
+.main-body {
+	display: flex;
+	flex-direction: row;
+	background: #ffffff;
+	margin: none;
+	padding: 1vh;
+	min-height: 55vh;
+	max-width: 1200px;
+	margin: 10px auto 20px;
+}
+
+.cuisine-category {
+	width: 15%;
+	border: 1px solid #f1f1f1;
+}
+
+.cuisine-category h4 {
+	text-align: center;
+}
+
+.activities {
+	display: flex;
+	flex-direction: column;
+	margin-left: 1vh;
+	width: 85%;
+}
+
+.activities .welcome-part {
+	display: flex;
+	min-height: 5vh;
+	border: 1px solid #f1f1f1;
+}
+
+.welcome-part h4 {
+	width: 300px;
+	text-align: center;
+}
+
+.welcome-part h4:hover {
+	background: aliceblue;
+	margin: 0;
+	padding-top: 1.5vh;
+}
+
+
+.current {
+	background: #f0f0f0;
+	margin: 0;
+	padding-top: 1.5vh;
+}
+
+.activities .welcome-activity {
+	display: flex;
+	min-height: 49vh;
+	margin-top: 1vh;
+}
+
+.activities .act {
+	width: 80%;
+	min-height: 49vh;
+	border: 1px solid #f1f1f1;
+}
+
+.activities .account {
+	width: 20%;
+	min-height: 49vh;
+	display: flex;
+	flex-direction: column;
+	margin-left: 1vh;
+	border: 1px solid #f1f1f1;
+}
+
+.account h4,h5 {
+	text-align: center;
+
+}
+
+.login-img {
+	width: 40%;
+	margin-left: 30%;
+	padding-top: 5%;
+}
+
+.account button {
+	width: 35%;
+	margin-left: 10%;
+	height: 3%;
+	background: #ff9800;
+	border: 0;
+	border-radius:3px;
+	color: white;
+}
+
+/*Recommendations*/
+.recommendation {
+	display: flex;
+	margin: 0;
+	padding: 1vh;
+	background: #ffffff;
+	min-height: 20vh;
+	max-width: 1200px;
+	margin: 10px auto 20px;
+
+}
+
+.rec-food {
+	width: 15%;
+	border: 1px solid #f1f1f1;
+	padding: 1vh;
+}
+
+.hot-ranking {
+	width: 68%;
+	border: 1px solid #f1f1f1;
+	margin-left: 1vh;
+	display: flex;
+	flex-direction: row;
+	padding: 1vh;
+}
+
+.rec-restaurant {
+	width: 17%;
+	margin-left: 1vh;
+	border: 1px solid #f1f1f1;
+	padding: 1vh
+}
+
+.rank {
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.hot-ranking .restaurant-logo {
+	width: 40%;
+	border-radius: 30%;
+}
+
+.hot-ranking .restaurant-logo img {
+	width: 80%;
+	padding: 10%;
+}
+
+.logo-name {
+	display: flex;
+	flex-direction: row;
+}
+
+.name {
+	text-align: center;
+	background-image: url("../images/crown.jpg");
+	background-size: 5vh 3vh;
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding-top: 3vh;
+	padding-left: 1vh;
+}
+
+.dish {
+	background-image: url(../images/mapo.jpg);
+	background-size: 2vh 2vh;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 2.5vh;
+}
+
+.b1 {
+	background-image: url(../images/kfc.jpg);
+	background-size: 2vh 2vh;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 2.5vh;
+}
+
+.b2 {
+	background-image: url(../images/peakingduck.jpg);
+	background-size: 2vh 2vh;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 2.5vh;
+}
+
+.b3 {
+	background-image: url(../images/hongwei.jpg);
+	background-size: 2vh 2vh;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 2.5vh;
+}
+
+.week-bs h6 {
+	background-image: url(../images/3stars.png);
+	background-size: 3vh 1vh;
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-left: 3vh;
+	padding-right: 0;
+}
+
+/*Footer*/
+footer {
+	display:flex;
+	background: #f0f0f0;
+	margin: 0;
+	min-height: 16vh;
+
+}
+
+footer >div {
+	width: 25%;
+}
+
+footer h4,p {
+	text-align: center;
+}
+
+.manage {
+	display: flex;
+	flex-direction: column;
+}
+
+.manage button {
+	margin: 5%;
+	height: 5vh;
+	background: #ff9800;
+	border: 0;
+	border-radius: 3px;
+	color: white;
+	font-size: 1.2em;
+}
+
+/*login*/
+
+#log-sign {
+	width: 1200px;
+	margin: 10px auto 20px;
+	padding: 1vh;
+	background:#ffffff;
+	display: flex;
+	flex-direction: row;
+	height: 66vh
+}
+
+.blank {
+	width: 60%;
+}
+
+.blank h2 {
+	text-align: center;
+	margin: 10vh;
+}
+
+.blank img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10vh;
+}
+.login-signup {
+	width: 40%;
+}
+
+.login-signup .submitbutton {
+  background: #ff9800;
+	border: 0;
+	border-radius: 3px;
+	padding: 5px;
+	width: 90%;
+	display: block;
+  margin: auto;
+	color: white;
+}
+
+
+.container {
+	display:flex;
+	flex-direction: column;
+	margin: 10%;
+	margin-top: 5vh;
+	border: 1px solid #ff9800;
+	border-radius: 10px;
+	padding: 2vh;
+	background: #ffc3005c;
+}
+
+.container label {
+
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+}
+
+.container input {
+	height: 2.5vh;
+	border-radius: 8px;
+	border: 1px solid #ff9800;
+}
+
+.container .submitbutton {
+	background: #ff9800;
+	border: 0;
+	border-radius: 3px;
+	padding: 5px;
+	width: 90%;
+	display: block;
+  margin: auto;
+	color: white;
+}
+
+
+.loginbtn {
+	display: flex;
+	flex-direction: row;
+}
+
+
+/*slides*/
+.act {
+  position: relative;
+  margin: auto;
+}
+
+.act img {
+	width: 100%;
+	min-height: 49vh;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  transition: 1s ease;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: black;
+}
+
+/*Log out in header*/
+.log-out {
+	display: flex;
+	flex-direction: row;
+}
+
+
+/*User Profile*/
+#ppd {
+	display: flex;
+	flex-direction: row;
+}
+
+#pp {
+	width: 80%;
+}
+
+#pp label {
+	font-size: 1.5vh;
+	font-weight: bold;
+	margin-top: 2vh;
+}
+
+#pp h3 {
+	background: lightgray;
+	height: 3.5vh;
+	font-size: 2vh;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	padding-top: 0.75vh;
+}
+
+.comment {
+  width: 90vw;
+  display: block;
+  margin: auto;
+  border: 1px solid grey;
+  margin-top: 5vh;
+  padding: 2vh;
+}
+
+.view-comments {
+  width: 90vw;
+  display: block;
+  margin: auto;
+  border: 1px solid grey;
+  margin-bottom: 5vh;
+  padding: 2vh;
+}
+
+.myComment {
+  border-bottom : 1px solid orange;
+
+}
+
+.myComment h4 {
+  background: lightgray;
+}
+
+.myComment p {
+  text-align: left;
+}
+
+.loginfo {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.show-image {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+#ppf img {
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+
+
+/**For Chinese Food Page**/
+
+.dishes {
+  width: 90%;
+  display:  block;
+  margin: auto;
+  border: 1px solid grey;
+}
+
+.thisDish {
+  width:  90%;
+  background: #f6f6f6;
+  margin-left: 5%;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.thisDish div {
+  margin-left: 20px;
+}
+.thisDish img {
+  width: 40%;
+  height: 220px;
+}
